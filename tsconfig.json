@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "alwaysStrict": true,
+      "esModuleInterop": true,
+      "lib": ["es2017"],
+      "moduleResolution": "node",
+      "module": "commonJS",
+      "outDir": "./dist",
+      "strict": true,
+      "target": "es2017",
+      "typeRoots": ["src/@types", "node_modules/@types", "../node_modules/@types"],
+      "removeComments": true,
+      "resolveJsonModule": true,
+      "preserveConstEnums": true,
+      "noUnusedParameters": true,
+      "noFallthroughCasesInSwitch": true,
+      "noImplicitAny": true,
+      "noImplicitReturns": true,
+      "noImplicitThis": true,
+      "noUnusedLocals": true,
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["./src/**/*.test.ts"]
+}
